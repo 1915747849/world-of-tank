@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../js/bootstrap.js">
+</head>
+<body>
+    <header>
+        <img src="./img/1.png" alt="" class=" headerimg  l">
+        <ul class=" headernav l">
+            <li>游戏 ∨</li>
+            <li>服务 ∨</li>
+            <li>特惠商城</li>
+            <li>游戏中心</li>
+        </ul>
+        <p class="headerp r">
+            <a href="#" class="l">登录</a>
+            <span class="l">或</span>
+            <a href="#" class="l">创建账号</a>
+        </p>
+    </header>
+    <main>
+        <nav class="mainnav">
+            <div class="mainnav-div coent">
+                <img class="logo l" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTciIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAxNTkgNDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTY4LjA3IDI2LjE1N1Y1LjU5NUg1MS43ODd2MjAuNTYySDY4LjA3em0tNC4zMy00LjExNmgtNy42MjN2LTQuMTFoNy42MjJ2NC4xMXpNNTYuMTAzIDkuNzVoNy42MjJ2NC4wN2gtNy42MjJWOS43NXpNMjEuMTI3IDMuNTA3bDYuMDAzIDUuOTQ3aC04LjcyM3YyNC43MzhsLTIuOTk4IDIuOTg2LTIuOTk4LTIuOTg2VjkuNDZIMy42OTRsNS45Ny01Ljk0NyAxMS40NjMtLjAwNnpNOS41MzggMjMuMDlsMi43OCAyLjc2OS00LjEyNiA0LjEzLTQuNDk4LTQuNDhWMTEuODc3aDUuODQ0VjIzLjA5ek0yMS4yOCAxMS44Nmg1LjgxOHYxMy42NUwyMi42IDI5Ljk5bC00LjEyNi00LjEzIDIuNzgtMi43NjguMDI2LTExLjIzMnpNMjIuNDUzLjI5Nkg4LjM0NEwuNDcgOC4xNDZWMjYuODVsMTQuOTQgMTQuODU0IDE0LjkzOC0xNC44NTNWOC4xNDVMMjIuNDUzLjI5NXptNi4yNjkgMjUuODc0TDE1LjQwOSAzOS40NDUgMi4wODIgMjYuMTdWOC44bDYuOTI2LTYuOUgyMS43OWw2Ljk0NSA2LjktLjAxMyAxNy4zNzF6bTc3LjE5Mi05LjI5aDQuMDMzdjkuMjVoMTQuMzYxdi05LjI1aDQuMTg2di0zLjk2NGgtNC4xODZWNS41OTVoLTUuMTYxdjcuMzRoLTQuMDUzdi03LjM0aC01LjE0N3Y3LjM0aC00LjAzM3YtNy4zNGgtNS4xODd2Ny4zNGgtMS4yMDhWMTYuOWgxLjIwOHYxNi44MTZoMjUuODAzdi00LjMyOGgtMjAuNjE2VjE2Ljg4em05LjE4IDBoNC4wNTN2NC40MDdoLTQuMDUzVjE2Ljg4em00MS40NDYgMS44ODNWNS41OTVoLTI2LjgwNnYxMy4xNjhoNi44MTNjLS41MjQuNTc1LTIuMjgyIDEuNDgtMi45NjUgMS45ODNhMjYuNzc2IDI2Ljc3NiAwIDAgMS01LjQzMyAzLjEwNSAxNy44NjMgMTcuODYzIDAgMCAxIDEuOTkgMy43MzMgMzMuODg1IDMzLjg4NSAwIDAgMCA3LjA3MS0zLjkwNXYxLjk4M2MwIDEuMzIxLS43NDMgMi4yMjYtMS45MjQgMy4wMjYtMS4xOC44LTIuMjk1IDEuMTU2LTQuODAyIDEuOTgyLjk5NSAxLjY2NSAxLjM4NiAyLjMzMiAyLjQwOCA0LjI4MiA0LjE3Mi0xLjQ1NCA1LjYzOC0yLjQ2NSA3LjIzLTQuMjM2IDEuNzI1LTEuOTM2IDEuOTI0LTMuNTgxIDEuOTI0LTUuODg3di0zLjg5MmgtMS42NDVhMjAuMDcgMjAuMDcgMCAwIDAgMS43NDQtMi4xNzRoMi42NTRjLjc0OS43NiAxLjQ0NiAxLjQ0IDIuMjE1IDIuMTc0aC0xLjY1MnYxMi44MTloNS4yNDd2LTkuNzZhNDIuNTg4IDQyLjU4OCAwIDAgMCA1LjU0NiAzLjU1NSAyMy4zMzEgMjMuMzMxIDAgMCAxIDIuMzc1LTQuMjgxIDM0LjQ0NiAzNC40NDYgMCAwIDEtNy4xMzgtNC41MjZsNS4xNDguMDJ6bS0xNi4yNDYtMy40MjJoLTUuNDQ1di0xLjc5N2g1LjQ0NXYxLjc5N3ptMC00LjQ4aC01LjQ0NVY5LjA2NGg1LjQ0NXYxLjc5N3ptNS4zMDctMS43OWg1LjgxMXYxLjc5aC01LjgxMVY5LjA3em0wIDYuMjd2LTEuNzk3aDUuODExdjEuNzk3aC01LjgxMXpNOTUuMDg4IDI1LjQ0NGMuMDkzLjYxNC4xMTEgMS4yMzcuMDUzIDEuODU2YTQuMzY5IDQuMzY5IDAgMCAxLS40ODQgMS45ODIgMi45MzUgMi45MzUgMCAwIDEtMS44MS41MzZoLS40OTJhMi43NjggMi43NjggMCAwIDEtMS45OS0uNDk2QTIuMTggMi4xOCAwIDAgMSA5MC4wMDcgMjh2LTQuMTQ5aDYuMDc2VjEyLjkzNmgtOS4xNDd2LTEuMzIyaDEyLjQxVjcuMzZoLTEyLjQxVjUuMzExaC01LjE0OHYyLjA0OGgtMTIuNDN2NC4yNjhoMTIuNDN2MS4zMjJoLTkuMTRWMjMuODVoNS45MTdhNi41OTcgNi41OTcgMCAwIDEtMS44MTggMy44OTIgMTEuNTQ2IDExLjU0NiAwIDAgMS02LjA3NiAyLjUzYy43MS44NzMgMi45OTggMy44NTMgMy4xNSA0LjA4NCAxLjg5MS0uNjE1IDQuNjA0LTEuNzMxIDYuMjQzLTMuNDE2YTExLjQ1IDExLjQ1IDAgMCAwIDMuMTQ0LTcuMDloMi41NHY0LjYyNWMwIC42NjEgMCAzLjE3OCAxLjgzOCA0LjQ1NGE4LjQ2MyA4LjQ2MyAwIDAgMCA0LjUxNyAxLjE1NmguODVjLjk2MSAwIDMuMTM3LS4xMjYgNC42NDMtMS41NDYgMS4yMTQtMS4xNDMgMS42NTgtMy40MTYgMS44MDQtNS4yODYtLjM4NS0uMTA2LTEuMDYxLS4zODMtMi4xNzYtLjc4NmExMy4wNTEgMTMuMDUxIDAgMCAxLTIuMTM2LTEuMDI0em0tMTcuODEtNS42NTZ2LTIuNzM2SDkxLjQ4djIuNzM2SDc3LjI3OHptLTI2LjM1NCA5LjU1NGgxOC4xOTV2NC4yOTVINDkuMjUydi0zLjIxMmMtLjY2My4yNjUtNy41MjIgMi42NDMtOC41NjQgMi44MTVsLS40MzctNC4zMjFhMzIuMjIyIDMyLjIyMiAwIDAgMCAzLjIxNy0uOTU4VjE3LjkzaC0yLjc4di00LjExaDIuNzczVjUuMjk3aDQuNTI0djguNTI0aDIuNzQ2djQuMTFoLTIuNzR2OC4yMzNhMjIuMjggMjIuMjggMCAwIDAgMi43NjctMS40OGMuMDIgMS41NjYuMTQgNC4yMDguMTY2IDQuNjU4eiIgZmlsbD0iI2NlZDBjZSIvPjwvc3ZnPg==" alt="">
+            <ul class="mainnavchild l">
+                <li>
+                    <a href="#" class="zizi">游戏</a>
+                    <span class="nav-l">|</span>
+                    <a href="#" class="kuang">∨</a>
+                    <section>
+                        <option value=""> 下载游戏</option>
+                        <option value="">新闻</option>
+                        <option value="">坦克百科</option>
+                        <option value="">新手指南</option>
+                        <option value="">完整指南</option>
+                        <option value="">经济</option>
+                    </section>
+                </li>
+                <li>
+                    <a href="#" class="zizi">军团</a>
+                    <span class="nav-l">|</span>
+                    <a href="#" class="kuang">∨</a>
+                    <section>
+                        <option value=""> 下载游戏</option>
+                        <option value="">新闻</option>
+                        <option value="">坦克百科</option>
+                        <option value="">新手指南</option>
+                        <option value="">完整指南</option>
+                        <option value="">经济</option>
+                    </section>
+                </li>
+                <li>
+                    <a href="#" class="zizi">媒体</a>
+                    <span class="nav-l">|</span>
+                    <a href="#" class="kuang">∨</a>
+                    <section>
+                        <option value=""> 下载游戏</option>
+                        <option value="">新闻</option>
+                        <option value="">坦克百科</option>
+                        <option value="">新手指南</option>
+                        <option value="">完整指南</option>
+                        <option value="">经济</option>
+                    </section>
+                </li>
+                <li>
+                    <a href="#" class="zizi">社区</a>
+                    <span class="nav-l">|</span>
+                    <a href="#" class="kuang">∨</a>
+                    <section>
+                        <option value=""> 下载游戏</option>
+                        <option value="">新闻</option>
+                        <option value="">坦克百科</option>
+                        <option value="">新手指南</option>
+                        <option value="">完整指南</option>
+                        <option value="">经济</option>
+                    </section>
+                </li>
+            </ul>
+            <div class="joinplay r">
+                <p>
+                下载游戏
+                </p>
+            </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <img src="https://static-cdn.wotgame.cn/static/5.73.0_022301/wotp_static/img/main_page/frontend/scss/img/logo_zh-cn.webp" alt="" 
+            class="bannerimg">
+            <p class="bannerp">《坦克世界》是一款全球范围内倍受玩家推崇的3D装甲载具MMO游戏。丰富多彩的游戏内地图，高度还原历史的模型，真实的战斗体验——赶快加入坦克世界指挥官大军，来感受史诗级战斗的氛围吧</p>
+            <div class="bannerdiv">
+                <p>创建账号</p>
+            </div>
+            <video src="./img/video-bg_cn.mp4" muted autoplay width="100%" height="100%" loop></video>
+        </div>
+    </main>
+    <div id="maincot">
+        <div class="maincontent coent">
+            <ul class="maincont l">
+                <li>
+                    <span class="leftbutton">
+                        
+                    </span>
+                    <span class="rightbutton">
+                       
+                    </span>
+                    <img src="./img/bigsenchina_1920-900_615x.jpg" alt="" class="maincontimg r">
+                    <span class="shadow">
+
+                    </span>
+                    <div class="maintext l">
+                        <p>领取您的2020当之无愧奖</p>
+                    </div>
+                    <ul class="buttonmove">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="maincotdiv r">
+                <img src="./img/premshop-banner_cn.jpg" alt="">
+                <span></span>
+            </div>
+        </div>
+        <div class="centermain coent">
+            <div class="centerdiv">
+                <h2 class="l">最新消息</h2>
+                <a href="#" class="l">所有资讯 ></a>
+            </div>
+            <div class="centerimg l">
+                <div class="imgblock">
+                    <img src="https://static-cdn.wotgame.cn/dcont/fb/image/harroun.jpg" alt="" >
+                    <span class="centersha">
+                    </span>
+                </div>
+                <div class="imgshadow">
+                    <h2>哈罗恩勋章背后的故事</h2>
+                    <p>来聊聊《坦克世界》中的史诗成就——“哈罗恩勋章”背后的真实历史故事，以及如何在游戏中获得这一史诗成就吧！</p>
+                    <span>
+                        <strong>攻略</strong> 2020/12/01
+                    </span>  
+                </div>
+            </div>
+            <span class="splie l">
+            </span> 
+            <dl class="l">
+                <div>
+                    <dd  class="dd-1">
+                        <span class="ddshadow"></span>
+                        <img src="./img/wot_wint_banner_615x346.jpg" alt="">
+                    </dd>
+                    <dd class="dd-2"> 
+                        <h2>假日行动2021即将登场!</h2>
+                        <p>一年中最神奇的时刻即将来临!</p>
+                        <span><b>活动</b>  2020/12/01</span>
+                    </dd>
+                </div>
+                <div>
+                    <dd class="dd-1">
+                        <span class="ddshadow"></span>
+                        <img src="./img/wf.jpg" alt="">
+                    </dd>
+                    <dd class="dd-2">
+                        <h2>每日精选;冬日超值每日特惠开启</h2>
+                        <p>整整一个月的超值优惠活动等您参
+                            与！每一天都迎来新的24小时限时特惠，千万不要错过</p>
+                        <span><b>活动</b> 2020/12/01</span>
+                    </dd>
+                </div>
+                <div>
+                    <dd class="dd-1">
+                        <span class="ddshadow"></span>
+                        <img src="./img/bigsenchina_1920-900_615x.jpg" alt="">
+                    </dd>
+                    <dd class="dd-2">
+                        <h2>2020年12月:活动一览</h2>
+                        <p>双旦活动前瞻</p>
+                        <span><b>活动</b> 2020/11/30</span>
+                    </dd>
+                </div>
+            </dl>
+            <span class="splie l">
+            </span>
+            <dl class="l">
+                <div>
+                    <dd class="dd-1">
+                        <span class="ddshadow"></span>
+                        <img src="https://static-cdn.wotgame.cn/dcont/fb/image/holiday-ops-2021_615x346.jpg" alt="">
+                    </dd>
+                    <dd class="dd-2">
+                        <h2>[周末福利]紧锣密鼓</h2>
+                        <p>周末迎来全局经验兑换折扣1:35,
+                            还有经验、个人储备、配件福利!</p>
+                        <span>话动2020/11/26</span>
+                    </dd>
+                </div>
+                <div>
+                    <dd class="dd-1">
+                        <span class="ddshadow"></span>
+                        <img src="./img/615x346_7ts9ZUS.jpg" alt="">
+                    </dd>
+                    <dd class="dd-2">
+                        <h2>当之无愧奖:小坦克大故事</h2>
+                        <p>请欣赏这个精彩的故事吧!</p>
+                        <span>新闻2020/11/26</span>
+                    </dd>
+                </div>
+                <div>
+                    <dd class="dd-1">
+                        <span class="ddshadow"></span>
+                        <img src="./img/615-346_0UcPAsF.jpg" alt="">
+                    </dd>
+                    <dd class="dd-2">
+                        <h2>排位赛黄金组3V3公开赛
+                            报名中</h2>
+                        <p>第—届《坦克世界》排位赛黄金组
+                            3V3公开赛，报名火热进行中!</p>
+                        <span>新闻2020/11/26</span>
+                    </dd>
+                </div>
+            </dl>
+        </div>
+        <div class="centerdown">
+            <div class="centerdowntext coent">
+            <h2>活动及特惠</h2>
+            <ul>
+                <li>
+                    <div class="box1">
+                    <span class="box1shadow"></span>
+                    <img src="./img/wot_wint_banner_615x346.jpg" alt="">
+                    <p>每日精选闪亮登场</p>
+                    </div>                
+                    <div class ="box2">
+                        <span>剩余时间:</span>
+                        <p>28天</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                    <span class="box1shadow"></span>
+                    <img src="./img/bigsenchina_1920-900_615x.jpg" alt="">
+                    <p>极地挑战:狩猎S系战斗之星!</p>
+                    </div>
+                    <div class ="box2">
+                        <span>剩余时间:</span>
+                        <p>4天</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                    <span class="box1shadow"></span>
+                    <img src="./img/615x346_7ts9ZUS.jpg" alt="">
+                    <p>领取您的当之无愧奖</p>
+                    </div>
+                    <div class ="box2">
+                        <span>剩余时间:</span>
+                        <p>333天</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box1">
+                    <span class="box1shadow"></span>
+                    <img src="./img/615-346_0UcPAsF.jpg" alt="">
+                    <p>战斗通行证第3赛季</p>
+                    </div>
+                    <div class ="box2">
+                        <span>剩余时间:</span>
+                        <p>3天</p>
+                    </div>
+                </li>
+            </ul>
+            <span class="seeall">显示全部</span>
+            </div>
+        </div>
+        <div class="foottext">
+            <div class="foottextcen coent">
+                <ul>
+                    <li>
+                        <p>数据继承账号查询</p>
+                        <span></span>
+                        <img src="https://static-cdn.wotgame.cn/dcont/fb/image/npi_announcement_615x346.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>老用户回归流程</p>
+                        <span></span>
+                        <img src="https://static-cdn.wotgame.cn/dcont/fb/image/615x346gg_9Vm0Jih.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>更改游戏昵称说明</p>
+                        <span></span>
+                        <img src="https://static-cdn.wotgame.cn/dcont/fb/image/615x346-2.jpg" alt="">
+                    </li>
+                    <li>
+                        <p>申请数据继承</p>
+                        <span></span>
+                        <img src="https://static-cdn.wotgame.cn/dcont/fb/image/tmb/1111_hjoEFUz_615x.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="holder" class="coent">
+            <div id="link">
+                <a href="#"><img src="./img/wg_logo_hor.png" alt=""></a>
+
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">客服中心</a></li>
+                    <li><a href="#">隐私策略</a></li>
+                    <li><a href="#">最终用户许可协议</a></li>
+                    <li><a href="#">游戏规则</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foothold coent">
+            <div id="bottom">
+                <div class="logo">
+                    <img src="./img/360_logo.png" alt="">
+                    <img src="./img/ncb_license_logo.png" alt="">
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2011–2020 Wargaming.net 保留所有权利。</p>
+                <p>Copyright 2016 YouXi.com 版权所有 趣游时代(北京)科技有限公司 北京市朝阳区酒仙桥路6号院2号楼1至17层102号内13层1302</p>
+                <p>京ICP证京B2-20170671 | 京ICP备11029981号-10 | 京网文【2020】0038-009号</p>
+                <p>公安备案号11010502035516 | ISBN-978-7-89989-132-2 | 新出审字【2011】186号</p>
+                <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        navopen()
+        function navopen(){
+            $('.kuang').on('click' , function(){
+                var turnoff = true
+                if($('section').eq( $('.kuang').index($(this)) ).css('display') == 'none'){
+                    $('section').slideUp()
+                    turnoff = true
+                }else{
+                    turnoff = false
+                }
+                if(turnoff){
+                    $('section').eq( $('.kuang').index($(this)) ).slideDown()
+                    turnoff = false
+                }
+                else{
+                    $('section').eq( $('.kuang').index($(this)) ).slideUp()
+                    turnoff = true
+                }
+                
+            })
+        }
+    </script>
+
+</body>
+
+</html>
