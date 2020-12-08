@@ -95,15 +95,22 @@ main .banner .bannerdiv:hover {
 #maincot .maincont {
   width: 985px;
   height: 200px;
-  overflow: hidden;
   border-left: 2px solid #f25322;
+  position: relative;
 }
 
 #maincot .maincont li {
   width: 985px;
   height: 200px;
-  position: relative;
   cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+#maincot .maincont li:nth-child(1) {
+  z-index: 2;
 }
 
 #maincot .maincont li:hover .maincontimg {
@@ -154,26 +161,29 @@ main .banner .bannerdiv:hover {
   line-height: 160px;
 }
 
-#maincot .maincont li .buttonmove {
+#maincot .maincont .buttonmove {
   position: absolute;
-  bottom: 30px;
-  left: 75px;
-  z-index: 2;
+  bottom: 32px;
+  left: 98px;
+  z-index: 100;
+  width: 140px;
+  height: 10px;
 }
 
-#maincot .maincont li .buttonmove li {
+#maincot .maincont .buttonmove li {
   width: 8px;
   height: 8px;
   float: left;
   background: #656255;
   margin: 4px;
+  position: relative;
 }
 
-#maincot .maincont li .buttonmove .active {
+#maincot .maincont .buttonmove .active {
   background: #f25322;
 }
 
-#maincot .maincont li .leftbutton {
+#maincot .maincont .leftbutton {
   cursor: pointer;
   position: absolute;
   background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxMCAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNC4wNjQgNy45OThsNS43NTMtNS42NjVhLjYuNiAwIDAgMCAwLS44NjJMOC41MDQuMTc4YS42MjcuNjI3IDAgMCAwLS44NzYgMEwuMTgzIDcuNTA4YS42LjYgMCAwIDAtLjE4LjQ5LjYuNiAwIDAgMCAuMTguNDlsNy40NDUgNy4zM2EuNjI3LjYyNyAwIDAgMCAuODc2IDBsMS4zMTMtMS4yOTRhLjYuNiAwIDAgMCAwLS44NjJMNC4wNjQgNy45OTh6IiBmaWxsPSIjQjhCMzk3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
@@ -185,9 +195,9 @@ main .banner .bannerdiv:hover {
   z-index: 2;
 }
 
-#maincot .maincont li .rightbutton {
+#maincot .maincont .rightbutton {
   position: relative;
-  z-index: 1;
+  z-index: 100;
   cursor: pointer;
   position: absolute;
   background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxMCAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNS45MzYgNy45OThMLjE4MyAyLjMzM2EuNi42IDAgMCAxIDAtLjg2MkwxLjQ5Ni4xNzhhLjYyNy42MjcgMCAwIDEgLjg3NiAwbDcuNDQ1IDcuMzNhLjYuNiAwIDAgMSAuMTguNDkuNi42IDAgMCAxLS4xOC40OWwtNy40NDUgNy4zM2EuNjI3LjYyNyAwIDAgMS0uODc2IDBMLjE4MyAxNC41MjNhLjYuNiAwIDAgMSAwLS44NjJsNS43NTMtNS42NjR6IiBmaWxsPSIjQjhCMzk3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
@@ -313,7 +323,6 @@ main .banner .bannerdiv:hover {
   width: 418px;
   height: 170px;
   background: #0e0e0f;
-  padding: 0 32px;
   box-shadow: 0px 7px 20px 15px black;
   position: relative;
   z-index: 5;
@@ -324,6 +333,7 @@ main .banner .bannerdiv:hover {
   color: #e9e2bf;
   line-height: 45px;
   font-weight: 700;
+  margin: 0 32px;
 }
 
 #maincot .centerimg .imgshadow p {
@@ -331,6 +341,7 @@ main .banner .bannerdiv:hover {
   color: #e9e2bf;
   line-height: 18px;
   font-weight: 300;
+  margin: 0 32px;
 }
 
 #maincot .centerimg .imgshadow span {
@@ -338,6 +349,7 @@ main .banner .bannerdiv:hover {
   color: #e9e2bf;
   line-height: 24px;
   font-weight: 300;
+  margin: 0 32px;
 }
 
 #maincot .centermain .splie {

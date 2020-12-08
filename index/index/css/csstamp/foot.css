@@ -4,7 +4,7 @@ footer {
 }
 
 footer #holder {
-  height: 81px;
+  height: 82px;
   border-bottom: 1px solid #282828;
 }
 
@@ -63,6 +63,10 @@ footer #holder ul li:nth-of-type(4) {
   margin-top: 5px;
 }
 
+footer .foothold {
+  height: 158px;
+}
+
 footer .foothold #bottom .logo {
   float: left;
   width: 340px;
@@ -94,6 +98,6 @@ footer .copyright {
 
 footer .copyright p {
   font-size: 10px;
-  line-height: 4px;
+  line-height: 16px;
   color: #3c3c3c;
 }

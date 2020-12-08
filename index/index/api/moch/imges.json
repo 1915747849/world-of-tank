@@ -1,0 +1,40 @@
+{
+    "type":"imges",
+    "code": 0,
+    "centerimg":[
+        {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/harroun.jpg"
+        }
+    ],
+    "imglist":[
+        {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/tmb/bigsenchina_1920-900_615x.jpg"
+        }
+    ],
+    "imglist2":[
+        {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/wot_wint_banner_615x346.jpg"
+        }
+    ],
+    "imglist3":[
+            {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/chuck_holiday-ops-2021_615x346.jpg"
+            }
+    ],
+    "imglist4":[
+        {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/615346.jpg"
+        }
+    ],
+    "imglist5":[
+        {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/1.11_615x346.jpg"
+        }
+    ],
+    "imglist6":[
+            {
+            "imgurl":"https://static-cdn.wotgame.cn/dcont/fb/image/615x346_zKf73nY.jpg"
+            }
+    ]
+}
+  
